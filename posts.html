@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Posts • PlanetPong.xyz</title>
-  <link rel="icon" href="/Portfolio/images/ChatGPT Image Jan 24, 2026, 01_58_42 PM.png" type="image/png">
+  <title>• Posts • Justin</title>
+  <link rel="icon" href="/images/mylogo.png" type="image/png">
   <meta name="description" content="Posts and devlogs." />
   <link rel="stylesheet" href="style.css" />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
@@ -64,8 +64,9 @@
   <!-- Header -->
   <header class="topbar">
     <div class="container topbar__inner">
-      <a class="brand" href="index.html">
-        <span class="brand__dot"></span>
+      <a class="brand" href="index.html" aria-label="Go to Home">
+        <img src="/images/mylogo.png" alt="Planet logo" class="brand__logo">
+        
         <span class="brand__text">planetpong.xyz</span>
       </a>
 
@@ -88,7 +89,7 @@
     <!-- Page intro -->
     <section class="section hero hero--page">
       <div class="hero__content reveal">
-        <p class="kicker">Logs / Posts</p>
+        <p class="kicker">Devlogs // Posts</p>
         <h1 class="title"><span class="accent">Posts</span></h1>
         <p class="subtitle">
           Short devlogs, notes, and updates. Click a post below to jump to it.
@@ -96,6 +97,14 @@
 
         <!-- Table of contents -->
         <div class="toc">
+          <a href="#post-6">
+            <span>LOG 005 // Creating a database using Access</span>
+            <span class="muted">↘</span>
+          </a>
+          <a href="#post-5">
+            <span>LOG 004 // On holiday</span>
+            <span class="muted">↘</span>
+          </a>
           <a href="#post-1">
             <span>LOG 003 // Building PlanetPong.dev | My Space Portfolio</span>
             <span class="muted">↘</span>
@@ -108,11 +117,75 @@
             <span>LOG 001 // Coding my first big python project</span>
             <span class="muted">↘</span>
           </a>
+          
         </div>
       </div>
     </section>
 
     <div class="divider"><span></span></div>
+
+    <section class="section post reveal" id="post-6">
+      <article class="card">
+        <div class="post__meta">
+          <span class="muted small">LOG 005</span>
+          <span class="muted small">•</span>
+          <time class="muted small" datetime="2026-01-21">27/03/2026</time>
+        </div>
+
+        <h2 class="post__title">Creating a database using Access</h2>
+        <div class="post__content">
+          <p>For my level 1 Digital Technologies, I had to create a database using Microsoft Access. The database was for a library, where it would store information about the books, borrowers, and loans. I had to design the tables, set up relationships, and create forms for data entry.</p>
+          <p><strong>What I did:</strong></p>
+          <ul>
+            <li>Made the database functional with forms, and tables for the data. </li>
+            <li>Set up relationships between tables</li>
+            <li>Designed the user interface for easy data access and created the final report. </li>
+          </ul>
+          <p>Overall, it was a good experience learning how databases work and how to use Access to manage data. It also gave me a better understanding of how information is organized and stored in software applications.</p>
+          <p>Giving me a better understanding on how data works in the real world, especially how I wanted to go into Data Engineering / Data Science.</p>
+
+
+            <div class="project__links">
+            <a class="btn btn--ghost btn--small" href="#top"><strong>Back to top</strong></a>
+          </div>
+            
+          <div class="image-card">
+            </section>
+
+    <section class="section post reveal" id="post-5">
+      <article class="card">
+        <div class="post__meta">
+  
+          <span class="muted small">LOG 004</span>
+          <span class="muted small">•</span>
+          <time class="muted small" datetime="2026-01-21">27/03/2026</time>
+        </div>
+
+        <h2 class="post__title">Finally taking a good picture of the night sky</h2>
+        <div class="post__content">
+          <p>I went on holiday overseas to the tropical country of Malaysia, it was a long 11 hour flight. Most of the flight was pitch black out the window
+            so that gave me an idea to try and use the opportunity to take a picture outisde using my iPhone with specific settings.
+            To take stunning pictures of the night sky you need really strict conditions:
+            <ul>
+              <li>
+                <strong>Low light pollution</strong> as city lights make it hard to see the night sky
+                Specific camera settings: on my phone, I needed to turn on night mode max, aswell as the highest exposure.
+                You need to keep your camera or phone super still, so holding it on a tripod or something will help layout
+
+
+              </li>
+            </ul>
+            <p>When I did all of this I held my phone still slotted in between the plane window cover and I was surprised
+              to actually get a good photo of the sky. </p>
+              <div class="image-card">
+    <img src="/images/airplane photo.jpeg" width="400" style="height: auto;" class="logo">
+            <p><i>This photo is to be best seen with your brightness up.</i></p>
+            <div class="project__links">
+            <a class="btn btn--ghost btn--small" href="#top"><strong>Back to top</strong></a>
+          </div>
+            
+          <div class="image-card">
+            </section>
 
     <!-- POST 1 -->
     <section class="section post reveal" id="post-1">
@@ -152,18 +225,7 @@
             </ul>
             <p>The goal was for everything to be simple but still smooth and readable</p>
 
-            <p><strong>Design and theme</strong></p>
-      <p>
-        I chose a space-themed design because it represents exploration, creativity, and building
-        things from scratch. The dark background, subtle star effects, and glowing accents help give
-        the site a sci-fi feel without being distracting.
-      </p>
-
-      <ul>
-        <li>Clean, card-based layouts</li>
-        <li>Consistent spacing and rounded elements</li>
-        <li>Subtle animations instead of flashy effects</li>
-      </ul>
+  
 
       <p><strong>Site structure</strong></p>
       <p>
@@ -206,7 +268,7 @@
 
       <p><strong>Inspiration</strong></p>
       <p>The reason I made this portfolio after getting inspired from one of my friends (who is a game developer) Aidan who made a similar dev portfolio.</p>
-        <a href="https://nowaidan.dev/"><strong>Click: <u>https://nowaidan.dev</u></strong></a>
+        <a href="https://nowaidan.dev" target="_blank"><strong>Check it out -> <u>https://nowaidan.dev</u></strong></a>
 
       
 
@@ -223,7 +285,7 @@
     <section class="section post reveal" id="post-2">
       <article class="card">
         <div class="post__meta">
-          <span class="pill">Notes</span>
+
           <span class="muted small">LOG 002</span>
           <span class="muted small">•</span>
           <time class="muted small" datetime="2026-01-21">27/06/2025</time>
@@ -263,7 +325,7 @@
    
 
           <div class="image-card">
-    <img src="/Portfolio/images/bdsc website.png" alt="BDSC WEBSITE" width="500" style="height: auto;" class="logo">
+    <img src="/images/bdsc website.png" alt="BDSC WEBSITE" width="500" style="height: auto;" class="logo">
 
 </div>
 
@@ -319,7 +381,7 @@
       
        
           
-
+<section class="section post reveal" id="post-4">
           <div class="project__links">
             <a class="btn btn--ghost btn--small" href="#top"><strong>Back to top</strong>></a>
           </div>
@@ -327,10 +389,13 @@
       </article>
     </section>
 
+    
+
     <footer class="footer">
-      <p class="muted small">© <span id="year"></span> PlanetPong.dev</p>
-    </footer>
-  </main>
+  <p class="muted small">
+    © <span id="year"></span> Justin Hoo • built with HTML/CSS
+  </p>
+</footer>
 
   <script src="script.js"></script>
 
