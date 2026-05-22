@@ -699,3 +699,7 @@ h1, h2, h3 {
 .modal{
   transition: opacity 0.3s ease;
 }
+
+.status-banner {
+  text-align: center;
+}
