@@ -637,25 +637,44 @@ h1, h2, h3 {
   opacity: 0.9;
 }
 
-/* smoother modal animation */
-.modal {
+/* ---------- MODAL (FIXED + ANIMATED) ---------- */
+.modal{
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0,0,0,.55);
+
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
   transition: opacity 0.25s ease, visibility 0.25s ease;
 }
 
-.modal.show {
+.modal.show{
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
-.modal__panel {
+.modal__panel{
+  width: min(760px, 96vw);
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: rgba(10,14,19,.88);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+  padding: 14px;
+
   transform: scale(0.92);
   transition: transform 0.25s ease;
 }
 
-.modal.show .modal__panel {
+.modal.show .modal__panel{
   transform: scale(1);
 }
